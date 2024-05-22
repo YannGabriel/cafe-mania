@@ -20,7 +20,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #809671;
   border-radius: 20px;
-  border: none; /* creates padding around scroll thumb */
+  border: none;
 }
 
 @font-face {
