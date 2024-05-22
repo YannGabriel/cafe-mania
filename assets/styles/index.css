@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f8f8;
 }
 
 body::-webkit-scrollbar {
@@ -168,4 +174,88 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
     text-align: center;
   }
+}
+@font-face {
+  font-family: "garet";
+  src: url(../../fonts/Garet-Book.otf);
+}
+.nav h3.our-links {
+  color: #725C3A;
+  padding: 60px 0px 30px 0px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "garet", sans-serif;
+}
+.nav nav.nav-bar {
+  width: 65%;
+  margin: auto;
+  align-self: center;
+}
+.nav nav.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav nav.nav-bar a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
+  color: #B3B792;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+@font-face {
+  font-family: "garet";
+  src: url(../../fonts/Garet-Book.otf);
+}
+.cafes {
+  padding-top: 80px;
+}
+.cafes .container-top {
+  height: 170px;
+  border-radius: 0px 0px 25px 25px;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.cafes .container-top h1.coffe-name {
+  color: #D2AB80;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+}
+.cafes .item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+.cafes .item .image {
+  border-radius: 10px;
+  width: 120px;
+}
+.cafes .item .item-content {
+  margin: auto;
+}
+.cafes .item h4.item-name {
+  font-weight: boldf;
+  font-size: 1.1rem;
+  font-family: "garet", sans-serif;
+  color: #725C3A;
+}
+.cafes .item p.ingredients {
+  color: #725C3A;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.cafes .item span.price {
+  color: #D2AB80;
+  font-family: "Open Sans", sans-serif;
+}
+.cafes hr.coffes {
+  color: #725C3A;
+  width: 85%;
+  margin: auto;
 }/*# sourceMappingURL=index.css.map */
