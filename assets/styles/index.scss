@@ -55,6 +55,13 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
 }
 
+@media (max-width: 720px){
+  body{
+    max-width: 100%;
+    margin: auto;
+   }
+}
+
  @import './components/header';
  @import './components/content-top';
  @import './components/about';

@@ -59,6 +59,12 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
 }
 
+@media (max-width: 720px) {
+  body {
+    max-width: 100%;
+    margin: auto;
+  }
+}
 @font-face {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
@@ -239,6 +245,7 @@ body::-webkit-scrollbar-thumb {
   src: url(../../fonts/Garet-Book.otf);
 }
 .cafes {
+  align-content: center;
   padding-top: 80px;
 }
 .cafes .container-top {
