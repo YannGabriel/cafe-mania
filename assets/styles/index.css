@@ -277,6 +277,7 @@ body::-webkit-scrollbar-thumb {
   height: 120px;
 }
 .cafes .item .item-content {
+  width: 70%;
   margin: auto;
 }
 .cafes .item h4.item-name {
