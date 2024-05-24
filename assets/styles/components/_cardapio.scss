@@ -26,6 +26,7 @@
     .image {
       border-radius: 10px;
       width: 120px;
+      height: 120px;
     }
   
     .item-content {
@@ -43,6 +44,11 @@
       color: $carob;
       font-size: 1rem;
       font-family: "Open Sans", sans-serif;
+    }
+
+    span.adendo{
+      color: $chai;
+      
     }
   
     span.price {

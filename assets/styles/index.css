@@ -263,6 +263,7 @@ body::-webkit-scrollbar-thumb {
 .cafes .item .image {
   border-radius: 10px;
   width: 120px;
+  height: 120px;
 }
 .cafes .item .item-content {
   margin: auto;
@@ -277,6 +278,9 @@ body::-webkit-scrollbar-thumb {
   color: #725C3A;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
+}
+.cafes .item span.adendo {
+  color: #D2AB80;
 }
 .cafes .item span.price {
   color: #D2AB80;
