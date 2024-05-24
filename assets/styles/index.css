@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   background-color: #f8f8f8;
 }
 
@@ -256,11 +257,14 @@ body::-webkit-scrollbar-thumb {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  width: 80%;
+  max-width: 80%;
   padding: 20px;
   margin: auto;
 }
 .cafes .item .image {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   border-radius: 10px;
   width: 120px;
   height: 120px;
