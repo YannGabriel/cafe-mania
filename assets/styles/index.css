@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb {
   }
   .content-first .buttons {
     margin: auto;
-    width: 400px;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -139,7 +139,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #E5D2B8;
     height: 200px;
     border: none;
-    width: 70%;
+    width: 80%;
   }
   .content-first .buttons a.target button.direction {
     border-radius: 25px;

@@ -48,7 +48,7 @@
 
     .buttons {
       margin: auto;
-      width: 400px;
+      width: 95%;
       display: grid;
       grid-template-columns: 1fr 1fr;
 
@@ -58,7 +58,7 @@
         background-color: $vanilla;
         height: 200px;
         border: none;
-        width: 70%;
+        width: 80%;
         button.direction{
           border-radius: 25px;
           width: 100%;
