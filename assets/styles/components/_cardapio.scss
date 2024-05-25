@@ -1,72 +1,118 @@
 @import './colors';
 @import './fonts';
 
-.cafes{
+.container-top {
+  height: 170px;
+  border-radius: 0px 0px 25px 25px;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.cafes {
   align-content: center;
   padding-top: 80px;
-  .container-top{
-    height: 170px;
-    border-radius: 0px 0px 25px 25px;
-    align-content: center;
-    margin-bottom: 20px;
-    h1.coffe-name{
-      color: $chai;
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      font-size: 2.6rem;
-    }
-  }
-  .item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    width: 80%;
-    padding: 20px;
-    margin: auto;
-  
-    .image {
-      display: flex;
-      justify-content: center;
-      margin: auto;
-      border-radius: 10px;
-      width: 120px;
-      height: 120px;
-    }
-  
-    .item-content {
-      text-align: start;
-      width: 70%;
-      margin: auto;
-    }
-  
-    h4.item-name {
-      font-weight: boldf;
-      font-size: 1.1rem;
-      font-family: 'garet', sans-serif;
-      color: $carob;
-    }
-  
-    p.ingredients {
-      color: $carob;
-      font-size: 1rem;
-      font-family: "Open Sans", sans-serif;
-    }
 
-    span.adendo{
-      color: $chai;
-      
-    }
-  
-    span.price {
-      color: $chai;
-      font-family: "Open Sans", sans-serif;
-    }
+  h1.coffe-name {
+    color: $chai;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.6rem;
   }
-  
-  hr.coffes {
+
+
+  h4.item-name {
+    font-weight: boldf;
+    font-size: 1.1rem;
+    font-family: 'garet', sans-serif;
     color: $carob;
+  }
+
+  p.ingredients {
+    color: $carob;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  span.adendo {
+    color: $chai;
+
+  }
+
+  span.price {
+    color: $chai;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  hr.coffes {
+    background-color: $carob;
     width: 85%;
     margin: auto;
   }
 }
 
+.salgados {
+  align-content: center;
+  padding-top: 80px;
+
+  h1.salgados-name {
+    color: $carob;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.6rem;
+  }
+
+
+  h4.item-name {
+    font-weight: boldf;
+    font-size: 1.1rem;
+    font-family: 'garet', sans-serif;
+    color: $chai;
+  }
+
+  p.ingredients {
+    color: $chai;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  span.adendo {
+    color: $carob;
+
+  }
+
+  span.price {
+    color: $carob;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  hr.salgados-line{
+    width: 80%;
+    margin: auto;
+    background-color: $chai;
+  }
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+
+  .image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .item-content {
+    text-align: start;
+    width: 70%;
+    margin: auto;
+  }
+
+}

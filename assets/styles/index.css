@@ -244,23 +244,82 @@ body::-webkit-scrollbar-thumb {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
 }
-.cafes {
-  align-content: center;
-  padding-top: 80px;
-}
-.cafes .container-top {
+.container-top {
   height: 170px;
   border-radius: 0px 0px 25px 25px;
   align-content: center;
   margin-bottom: 20px;
 }
-.cafes .container-top h1.coffe-name {
+
+.cafes {
+  align-content: center;
+  padding-top: 80px;
+}
+.cafes h1.coffe-name {
   color: #D2AB80;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 2.6rem;
 }
-.cafes .item {
+.cafes h4.item-name {
+  font-weight: boldf;
+  font-size: 1.1rem;
+  font-family: "garet", sans-serif;
+  color: #725C3A;
+}
+.cafes p.ingredients {
+  color: #725C3A;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.cafes span.adendo {
+  color: #D2AB80;
+}
+.cafes span.price {
+  color: #D2AB80;
+  font-family: "Open Sans", sans-serif;
+}
+.cafes hr.coffes {
+  background-color: #725C3A;
+  width: 85%;
+  margin: auto;
+}
+
+.salgados {
+  align-content: center;
+  padding-top: 80px;
+}
+.salgados h1.salgados-name {
+  color: #725C3A;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+}
+.salgados h4.item-name {
+  font-weight: boldf;
+  font-size: 1.1rem;
+  font-family: "garet", sans-serif;
+  color: #D2AB80;
+}
+.salgados p.ingredients {
+  color: #D2AB80;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.salgados span.adendo {
+  color: #725C3A;
+}
+.salgados span.price {
+  color: #725C3A;
+  font-family: "Open Sans", sans-serif;
+}
+.salgados hr.salgados-line {
+  width: 80%;
+  margin: auto;
+  background-color: #D2AB80;
+}
+
+.item {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -268,7 +327,7 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   margin: auto;
 }
-.cafes .item .image {
+.item .image {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -276,31 +335,8 @@ body::-webkit-scrollbar-thumb {
   width: 120px;
   height: 120px;
 }
-.cafes .item .item-content {
+.item .item-content {
   text-align: start;
   width: 70%;
-  margin: auto;
-}
-.cafes .item h4.item-name {
-  font-weight: boldf;
-  font-size: 1.1rem;
-  font-family: "garet", sans-serif;
-  color: #725C3A;
-}
-.cafes .item p.ingredients {
-  color: #725C3A;
-  font-size: 1rem;
-  font-family: "Open Sans", sans-serif;
-}
-.cafes .item span.adendo {
-  color: #D2AB80;
-}
-.cafes .item span.price {
-  color: #D2AB80;
-  font-family: "Open Sans", sans-serif;
-}
-.cafes hr.coffes {
-  color: #725C3A;
-  width: 85%;
   margin: auto;
 }/*# sourceMappingURL=index.css.map */
