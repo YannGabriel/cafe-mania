@@ -92,6 +92,46 @@
   }
 }
 
+.doces{
+padding-top: 40px;
+
+h1.candy-name{
+  color: $matcha;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+}
+
+h4.item-name {
+  font-weight: boldf;
+  font-size: 1.1rem;
+  font-family: 'garet', sans-serif;
+  color: $matcha;
+}
+
+p.ingredients {
+  color: $pistache;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+span.adendo {
+  color: $matcha;
+
+}
+
+span.price {
+  color: $matcha;
+  font-family: "Open Sans", sans-serif;
+}
+
+hr.doces-line{
+  width: 80%;
+  margin: auto;
+  background-color: $pistache;
+}
+}
+
 .item {
   display: grid;
   grid-template-columns: 1fr 1fr;

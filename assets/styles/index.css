@@ -319,6 +319,39 @@ body::-webkit-scrollbar-thumb {
   background-color: #D2AB80;
 }
 
+.doces {
+  padding-top: 40px;
+}
+.doces h1.candy-name {
+  color: #809671;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+}
+.doces h4.item-name {
+  font-weight: boldf;
+  font-size: 1.1rem;
+  font-family: "garet", sans-serif;
+  color: #809671;
+}
+.doces p.ingredients {
+  color: #B3B792;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.doces span.adendo {
+  color: #809671;
+}
+.doces span.price {
+  color: #809671;
+  font-family: "Open Sans", sans-serif;
+}
+.doces hr.doces-line {
+  width: 80%;
+  margin: auto;
+  background-color: #B3B792;
+}
+
 .item {
   display: grid;
   grid-template-columns: 1fr 1fr;
