@@ -1,38 +1,41 @@
-
-
 @import './colors';
 @import './fonts';
 
-.about-us{
+.about-us {
   background-color: $chai;
 }
 
-@media (max-width: 1199px){
-  .about-us{
+@media (max-width: 1199px) {
+  .about-us {
     height: 59vh;
     border-radius: 0px 0px 20px 20px;
-    img.details{
+
+    img.details {
       position: absolute;
     }
-    img#top{
+
+    img#top {
       left: -30%;
       z-index: 0;
       opacity: 0.3;
     }
-    img#bottom{
+
+    img#bottom {
       z-index: 0;
-      left: 63%;  
+      left: 63%;
       margin-top: 50%;
       opacity: 0.3;
     }
-    h2.about-us-title{
+
+    h2.about-us-title {
       color: $matcha;
       font-family: "Poppins", sans-serif;
       font-size: 2.4rem;
       text-align: center;
       padding: 40px 0px;
     }
-    p.about-us-description{
+
+    p.about-us-description {
       font-weight: bold;
       font-size: 1.4rem;
       font-family: 'garet', sans-serif;
@@ -41,4 +44,48 @@
       text-align: center;
     }
   }
+}
+
+@media (min-width: 1200px) {
+  .about-us {
+    height: 60vh;
+
+    img.details {
+      position: absolute;
+
+    }
+
+    img#top {
+      top: -3%;
+      opacity: 0.6;
+      left: -10%;
+      z-index: -1;
+    }
+
+    img#bottom {
+      top: -15%;
+      opacity: .6;
+      z-index: -1;
+    }
+
+    h2.about-us-title{
+      color: $matcha;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      padding: 40px 0px 0px 20px;
+      font-size: 2.8rem;
+    }
+
+    p.about-us-description{
+      color: $carob;
+      font-weight: bold;
+      text-align: center;
+      width: 500px;
+      font-size: 2.1rem;
+      margin: auto;
+      font-size: 'garet', sans-serif;
+     }
+  }
+
+
 }

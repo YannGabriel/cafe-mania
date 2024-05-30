@@ -26,5 +26,17 @@
 }
 
 @media (min-width: 1200px){
+  img.logo{
+    margin: auto;
+    display: flex;
+    width: 100px;
+    background-color: $carob;
+    border-radius: 50%;
+  }
 
+  h1.cafe-name{
+    color: $almond;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
 }

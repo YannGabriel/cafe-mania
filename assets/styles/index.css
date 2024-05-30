@@ -90,6 +90,20 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 }
+@media (min-width: 1200px) {
+  img.logo {
+    margin: auto;
+    display: flex;
+    width: 100px;
+    background-color: #725C3A;
+    border-radius: 50%;
+  }
+  h1.cafe-name {
+    color: #E5E0D8;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+}
 @font-face {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
@@ -167,6 +181,72 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0px 0px 20px #B3B792;
   }
 }
+@media (min-width: 1200px) {
+  img.details {
+    width: 500px;
+    opacity: 0.7;
+  }
+  img#top {
+    position: absolute;
+    top: 5%;
+    left: -9%;
+    z-index: -1;
+  }
+  img#bottom {
+    position: absolute;
+    left: 82%;
+    top: 60%;
+  }
+  h1.hello-page {
+    color: #809671;
+    text-align: center;
+    font-size: 3rem;
+    padding: 15px;
+    font-family: "garet", sans-serif;
+  }
+  p.introduction {
+    color: #725C3A;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    font-size: 2.2rem;
+  }
+  .buttons {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  a.target {
+    margin: auto;
+    border-radius: 30px;
+    background-color: #E5D2B8;
+    height: 100px;
+    width: 400px;
+    border: none;
+    text-decoration: none;
+  }
+  a.target:hover {
+    box-shadow: 0px 0px 20px #B3B792;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  button.direction {
+    cursor: pointer;
+    border: none;
+    height: 100px;
+    align-items: center;
+    width: 400px;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    color: #725C3A;
+  }
+  span#icon {
+    font-size: 4rem;
+  }
+}
 @font-face {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
@@ -210,6 +290,41 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 }
+@media (min-width: 1200px) {
+  .about-us {
+    height: 60vh;
+  }
+  .about-us img.details {
+    position: absolute;
+  }
+  .about-us img#top {
+    top: -3%;
+    opacity: 0.6;
+    left: -10%;
+    z-index: -1;
+  }
+  .about-us img#bottom {
+    top: -15%;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  .about-us h2.about-us-title {
+    color: #809671;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 40px 0px 0px 20px;
+    font-size: 2.8rem;
+  }
+  .about-us p.about-us-description {
+    color: #725C3A;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    font-size: 2.1rem;
+    margin: auto;
+    font-size: "garet", sans-serif;
+  }
+}
 @font-face {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
@@ -244,6 +359,11 @@ body::-webkit-scrollbar-thumb {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
 }
+.cardapio {
+  width: 80%;
+  margin: auto;
+}
+
 .container-top {
   height: 170px;
   border-radius: 0px 0px 25px 25px;
