@@ -359,11 +359,12 @@ body::-webkit-scrollbar-thumb {
   font-family: "garet";
   src: url(../../fonts/Garet-Book.otf);
 }
-.cardapio {
-  width: 80%;
-  margin: auto;
+@media (min-width: 1200px) {
+  .cardapio {
+    width: 80%;
+    margin: auto;
+  }
 }
-
 .container-top {
   height: 170px;
   border-radius: 0px 0px 25px 25px;
