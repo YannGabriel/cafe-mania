@@ -117,7 +117,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
-@media (max-width: 1199px) {
+@media (width <= 720px) {
   .content-first {
     position: relative;
   }
@@ -181,7 +181,72 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0px 0px 20px #B3B792;
   }
 }
-@media (min-width: 1200px) {
+@media (width <= 1999px) {
+  .content-first {
+    position: relative;
+  }
+  .content-first img.details {
+    width: 400px;
+    opacity: 0.8;
+    position: absolute;
+  }
+  .content-first img#top {
+    left: -20%;
+    top: -20%;
+    z-index: -1;
+  }
+  .content-first img#bottom {
+    z-index: -1;
+    top: 48%;
+    left: 60%;
+  }
+  .content-first h1.hello-page {
+    color: #809671;
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 50px 0px;
+    font-family: "garet", sans-serif;
+  }
+  .content-first p.introduction {
+    font-size: 2.1rem;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .content-first .buttons {
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .content-first .buttons a.target {
+    margin: auto;
+    border-radius: 25px;
+    background-color: #E5D2B8;
+    height: 200px;
+    border: none;
+    width: 80%;
+  }
+  .content-first .buttons a.target button.direction {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #725C3A;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Belleza", sans-serif;
+  }
+  .content-first .buttons a.target button.direction .material-symbols-outlined {
+    font-size: 75px;
+  }
+  .content-first .buttons a.target button.direction:hover {
+    transition: 0.6s;
+    box-shadow: 0px 0px 20px #B3B792;
+  }
+}
+@media (width >= 1200px) {
   img.details {
     width: 500px;
     opacity: 0.7;
@@ -255,7 +320,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #D2AB80;
 }
 
-@media (max-width: 1199px) {
+@media (width <= 720px) {
   .about-us {
     height: 59vh;
     border-radius: 0px 0px 20px 20px;
@@ -284,7 +349,43 @@ body::-webkit-scrollbar-thumb {
   .about-us p.about-us-description {
     font-weight: bold;
     font-size: 1.4rem;
-    font-family: "garet", sans-serif;
+    font-family: "belleza", sans-serif;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (width <= 1199px) {
+  .about-us {
+    height: 59vh;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .about-us img.details {
+    position: absolute;
+  }
+  .about-us img#top {
+    left: -20%;
+    z-index: 0;
+    opacity: 0.3;
+  }
+  .about-us img#bottom {
+    z-index: 0;
+    top: -40%;
+    left: 63%;
+    margin-top: 50%;
+    opacity: 0.3;
+  }
+  .about-us h2.about-us-title {
+    color: #809671;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 40px 0px;
+  }
+  .about-us p.about-us-description {
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: "belleza", sans-serif;
     width: 300px;
     margin: auto;
     text-align: center;
@@ -322,7 +423,7 @@ body::-webkit-scrollbar-thumb {
     width: 500px;
     font-size: 2.1rem;
     margin: auto;
-    font-size: "garet", sans-serif;
+    font-size: "belleza", sans-serif;
   }
 }
 @font-face {

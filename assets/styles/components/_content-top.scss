@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-@media (max-width: 1199px) {
+@media (width <= 720px) {
   .content-first {
     position: relative;
 
@@ -82,7 +82,80 @@
   }
 }
 
-@media (min-width: 1200px){
+@media (width <=1999px){
+  .content-first {
+    position: relative;
+
+    img.details {
+      width: 400px;
+      opacity: 0.8;
+      position: absolute;
+    }
+
+    img#top {
+      left: -20%;
+      top: -20%;
+      z-index: -1;
+    }
+
+    img#bottom {
+      z-index: -1;
+      top: 48%;
+      left: 60%;
+    }
+
+    h1.hello-page {
+      color: $matcha;
+      font-size: 2.6rem;
+      text-align: center;
+      padding: 50px 0px;
+      font-family: 'garet', sans-serif;
+    }
+
+    p.introduction {
+      font-size: 2.1rem;
+      width: 300px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .buttons {
+      margin: auto;
+      width: 95%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      a.target{
+        margin: auto;
+        border-radius: 25px;
+        background-color: $vanilla;
+        height: 200px;
+        border: none;
+        width: 80%;
+        button.direction{
+          border-radius: 25px;
+          width: 100%;
+          height: 100%;
+          background-color: transparent;
+          border: none;
+          color: $carob;
+          font-size: 1.6rem;
+          font-weight: bold;
+          font-family: "Belleza", sans-serif;
+          .material-symbols-outlined{
+            font-size: 75px;
+          }
+          &:hover{
+            transition: 0.6s;
+            box-shadow: 0px 0px 20px $pistache;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (width >= 1200px){
   img.details{
     width: 500px;
     opacity: 0.7;

@@ -5,7 +5,7 @@
   background-color: $chai;
 }
 
-@media (max-width: 1199px) {
+@media (width <= 720px) {
   .about-us {
     height: 59vh;
     border-radius: 0px 0px 20px 20px;
@@ -38,7 +38,49 @@
     p.about-us-description {
       font-weight: bold;
       font-size: 1.4rem;
-      font-family: 'garet', sans-serif;
+      font-family: 'belleza', sans-serif;
+      width: 300px;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+
+@media (width <= 1199px){
+  .about-us {
+    height: 59vh;
+    border-radius: 0px 0px 20px 20px;
+
+    img.details {
+      position: absolute;
+    }
+
+    img#top {
+      left: -20%;
+      z-index: 0;
+      opacity: 0.3;
+    }
+
+    img#bottom {
+      z-index: 0;
+      top: -40%;
+      left: 63%;
+      margin-top: 50%;
+      opacity: 0.3;
+    }
+
+    h2.about-us-title {
+      color: $matcha;
+      font-family: "Poppins", sans-serif;
+      font-size: 2.4rem;
+      text-align: center;
+      padding: 40px 0px;
+    }
+
+    p.about-us-description {
+      font-weight: bold;
+      font-size: 1.4rem;
+      font-family: 'belleza', sans-serif;
       width: 300px;
       margin: auto;
       text-align: center;
@@ -83,7 +125,7 @@
       width: 500px;
       font-size: 2.1rem;
       margin: auto;
-      font-size: 'garet', sans-serif;
+      font-size: 'belleza', sans-serif;
      }
   }
 
