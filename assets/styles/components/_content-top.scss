@@ -82,8 +82,9 @@
   }
 }
 
-@media (width <=1999px){
+@media (min-width : 720px) and (max-width: 1999px){
   .content-first {
+    height: 100vh;
     position: relative;
 
     img.details {
@@ -93,7 +94,7 @@
     }
 
     img#top {
-      left: -20%;
+      left: -10%;
       top: -20%;
       z-index: -1;
     }
@@ -101,7 +102,7 @@
     img#bottom {
       z-index: -1;
       top: 48%;
-      left: 60%;
+      left: 80%;
     }
 
     h1.hello-page {

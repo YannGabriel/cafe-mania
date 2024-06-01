@@ -46,7 +46,7 @@
   }
 }
 
-@media (width <= 1199px){
+@media (min-width : 720px) and (max-width: 1999px){
   .about-us {
     height: 59vh;
     border-radius: 0px 0px 20px 20px;
@@ -105,8 +105,8 @@
     }
 
     img#bottom {
-      top: -15%;
-      opacity: .6;
+      top: -120%;
+      opacity: 0.3;
       z-index: -1;
     }
 

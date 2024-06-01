@@ -181,8 +181,9 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0px 0px 20px #B3B792;
   }
 }
-@media (width <= 1999px) {
+@media (min-width: 720px) and (max-width: 1999px) {
   .content-first {
+    height: 100vh;
     position: relative;
   }
   .content-first img.details {
@@ -191,14 +192,14 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
   }
   .content-first img#top {
-    left: -20%;
+    left: -10%;
     top: -20%;
     z-index: -1;
   }
   .content-first img#bottom {
     z-index: -1;
     top: 48%;
-    left: 60%;
+    left: 80%;
   }
   .content-first h1.hello-page {
     color: #809671;
@@ -355,7 +356,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
   }
 }
-@media (width <= 1199px) {
+@media (min-width: 720px) and (max-width: 1999px) {
   .about-us {
     height: 59vh;
     border-radius: 0px 0px 20px 20px;
@@ -405,8 +406,8 @@ body::-webkit-scrollbar-thumb {
     z-index: -1;
   }
   .about-us img#bottom {
-    top: -15%;
-    opacity: 0.6;
+    top: -120%;
+    opacity: 0.3;
     z-index: -1;
   }
   .about-us h2.about-us-title {
